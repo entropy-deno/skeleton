@@ -1,0 +1,7 @@
+/.fleet
+/.idea
+/.vscode
+*.log
+*.sln
+*.sqlite
+.env*
