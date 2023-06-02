@@ -5,3 +5,4 @@
 *.sln
 *.sqlite
 .env*
+!.env.example
