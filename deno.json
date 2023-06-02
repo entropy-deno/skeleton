@@ -8,6 +8,8 @@
     "singleQuote": true
   },
   "tasks": {
-    "dev": "deno run --watch ./src/main.ts"
+    "dev": "deno run --watch ./src/main.ts",
+    "db:generate": "deno run -A --unstable npm:prisma generate --schema=./database/schema.prisma",
+    "db:migrate": "deno run -A --unstable npm:prisma migrate dev --schema=./database/schema.prisma"
   }
 }
