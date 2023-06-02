@@ -7,8 +7,13 @@
     "lineWidth": 80,
     "singleQuote": true
   },
+  "imports": {
+    "@/": "./src/",
+    "@std/": "https://deno.land/std@0.190.0/",
+    "@flavor": "../core/src/mod.ts"
+  },
   "tasks": {
-    "dev": "deno run --watch ./src/main.ts",
+    "dev": "deno run -A --watch ./src/main.ts",
     "db:generate": "deno run -A --unstable npm:prisma generate --schema=./database/schema.prisma",
     "db:migrate": "deno run -A --unstable npm:prisma migrate dev --schema=./database/schema.prisma"
   }
