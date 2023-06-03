@@ -4,5 +4,6 @@
 *.log
 *.sln
 *.sqlite
+.DS_Store
 .env*
 !.env.example
