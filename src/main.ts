@@ -1,5 +1,7 @@
 import { createServer } from '@flavor';
 
-const server = createServer();
+if (import.meta.main) {
+  const server = createServer();
 
-await server.start();
+  await server.start();
+}
