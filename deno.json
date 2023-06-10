@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
     "lib": [
       "ESNext",
       "DOM",
@@ -19,7 +18,6 @@
     "singleQuote": true
   },
   "imports": {
-    "@/": "./src/",
     "@std/": "https://deno.land/std@0.190.0/",
     "@flavor": "../core/src/mod.ts"
   },
