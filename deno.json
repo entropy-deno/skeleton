@@ -19,7 +19,7 @@
   },
   "imports": {
     "@std/": "https://deno.land/std@0.190.0/",
-    "@flavor": "../core/src/mod.ts"
+    "@entropy": "../core/src/mod.ts"
   },
   "tasks": {
     "db:generate": "deno run -A --unstable npm:prisma generate --schema=./database/schema.prisma",

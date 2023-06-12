@@ -1,4 +1,4 @@
-import { createServer } from '@flavor';
+import { createServer } from '@entropy';
 import { AppModule } from './app/app.module.ts';
 
 if (import.meta.main) {

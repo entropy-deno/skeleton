@@ -1,5 +1,5 @@
 import { assertEquals } from '@std/testing/asserts.ts';
-import { inject } from '@flavor';
+import { inject } from '@entropy';
 import { AppController } from './app.controller.ts';
 
 Deno.test('app module', async (test) => {
