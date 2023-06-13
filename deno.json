@@ -24,8 +24,8 @@
   "tasks": {
     "db:generate": "deno run -A --unstable npm:prisma generate --schema=./database/schema.prisma",
     "db:migrate": "deno run -A --unstable npm:prisma migrate dev --schema=./database/schema.prisma",
-    "start": "deno run -A --watch ./src/main.ts --open",
-    "start:dev": "deno run -A --watch ./src/main.ts --open",
+    "start": "deno task start:dev",
+    "start:dev": "deno run -A --watch ./src/main.ts --dev --open",
     "start:prod": "deno run -A ./src/main.ts"
   }
 }
