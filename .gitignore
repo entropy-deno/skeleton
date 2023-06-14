@@ -1,10 +1,10 @@
-/.fleet
-/.idea
-/.temp
-/.vscode
-*.log
-*.sln
-*.sqlite
 .DS_Store
 .env*
 !.env.example
+.fleet
+.idea
+.temp
+.vscode
+*.log
+*.sln
+*.sqlite
