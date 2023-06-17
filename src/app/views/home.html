@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home</title>
+
+    <link rel="icon" href="/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Roboto+Mono&display=swap"
+    >
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+
+  <body class="selection:bg-sky-300 dark:selection:bg-gray-600/40 dark:bg-gray-950">
+    <main class="text-gray-700 flex flex-col h-screen items-center justify-center gap-5 dark:text-slate-200">
+      <img class="w-36 h-36 motion-safe:animate-bounce" src="/logo.png" alt="Logo">
+  
+      <h1 class="font-bold text-5xl mt-4 mb-2">{{ message }}</h1>
+  
+      <p class="text-lg text-gray-700 dark:text-gray-300">
+        Navigate to <code class="text-purple-500 dark:text-purple-400 px-2 py-1 text-sm bg-purple-50 dark:bg-gray-800 rounded-md mx-1">src/app/views/home.html</code>
+        file to edit this page.
+      </p>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 -mt-2">
+        Navigate to <code class="text-purple-500 dark:text-purple-400 px-2 py-1 text-sm bg-purple-50 dark:bg-gray-800 rounded-md mx-1">src/app/app.controller.ts</code>
+        file to get started with backend logic.
+      </p>
+
+      <a
+        class="flex bg-purple-500 dark:bg-purple-400 text-white dark:text-gray-900 border-0 border-b-2 border-purple-600 dark:border-purple-500 hover:opacity-95 px-8 py-3 mt-4 rounded-lg"
+        href="https://entropy-deno.com/docs/introduction/introducing-entropy"
+        target="_blank"
+      >
+        Entropy Documentation
+      </a>
+    </main>
+  </body>
+</html>
