@@ -1,4 +1,4 @@
-import { assertEquals } from '@std/testing/asserts.ts';
+import { assertStringIncludes } from '@std/testing/asserts.ts';
 import { inject, Router } from '@entropy';
 import { AppController } from './app.controller.ts';
 
@@ -11,6 +11,6 @@ Deno.test('app module', async (test) => {
     const request = new Request('http://localhost:5050/');
     const response = await router.respond(request);
 
-    assertEquals((await response.text()).includes('Hello, world!'), true);
+    assertStringIncludes(await response.text(), 'Hello, world!');
   });
 });
