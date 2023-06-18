@@ -18,8 +18,8 @@
     "singleQuote": true
   },
   "imports": {
-    "@std/": "https://deno.land/std@0.191.0/",
-    "@entropy": "../core/src/mod.ts"
+    "@entropy": "../core/src/mod.ts",
+    "@std/": "https://deno.land/std@0.191.0/"
   },
   "tasks": {
     "db:migrate": "deno run -A --unstable npm:prisma migrate dev --schema=./database/schema.prisma",
