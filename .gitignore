@@ -3,8 +3,8 @@
 !.env.example
 .fleet
 .idea
-.temp
 .vscode
 *.log
 *.sln
 *.sqlite
+*coverage
