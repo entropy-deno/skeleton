@@ -7,7 +7,7 @@ const encrypter = inject(Encrypter);
 await db.user.create({
   data: {
     name: 'Admin',
-    email: 'admin@entropy-deno.com',
+    email: 'admin@entropy.deno.dev',
     password: encrypter.hash('1234'),
   },
 });
