@@ -7,4 +7,9 @@ export class AppController {
       message: 'Hello, world!',
     });
   }
+
+  @Route.Error(404)
+  public async notFound() {
+    return await render('./views/404');
+  }
 }
