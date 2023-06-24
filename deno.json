@@ -2,11 +2,11 @@
   "compilerOptions": {
     "allowJs": false,
     "lib": [
+      "deno.ns",
       "dom",
-      "dom.iterable",
       "dom.asynciterable",
-      "esnext",
-      "deno.ns"
+      "dom.iterable",
+      "esnext"
     ],
     "strict": true
   },
@@ -21,7 +21,7 @@
   },
   "imports": {
     "@entropy": "../core/src/mod.ts",
-    "@std/": "https://deno.land/std@0.191.0/"
+    "@std/": "https://deno.land/std@0.192.0/"
   },
   "tasks": {
     "db:migrate": "deno run -A --unstable npm:prisma migrate dev --schema=./database/schema.prisma",
