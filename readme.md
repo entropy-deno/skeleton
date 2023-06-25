@@ -2,6 +2,7 @@
   <img src="./.github/logo-full.png" height="64" alt="Logo">
 
   <br>
+  <br>
 
   <p align="center">Modern and declarative backend development framework for Deno.</p>
 
@@ -15,8 +16,10 @@
 
   <br>
 
-  <img src="https://shield.deno.dev/deno/%5E1.34" alt="Required minimal Deno version">
-  <img src="https://shield.deno.dev/x/entropy" alt="Latest Entropy version">
+  <a href="https://deno.land/x/entropy">
+    <img src="https://shield.deno.dev/deno/%5E1.34" alt="Required minimal Deno version">
+    <img src="https://shield.deno.dev/x/entropy" alt="Latest Entropy version">
+  </a>
 
   <br>
 </div>
