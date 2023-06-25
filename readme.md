@@ -7,17 +7,20 @@
   <p align="center">Modern and declarative backend development framework for Deno.</p>
 
   <h4>
-    <a href="https://entropy.deno.dev">Website</a>
+    <a href="https://entropy.deno.dev" target="_blank">Website</a>
     <span> · </span>
-    <a href="https://entropy.deno.dev/docs/introducing-entropy">Documentation</a>
+    <a href="https://entropy.deno.dev/docs/introducing-entropy" target="_blank">Documentation</a>
     <span> · </span>
-    <a href="https://entropy.deno.dev/docs/more/contributing">Contributing</a>
+    <a href="https://entropy.deno.dev/docs/more/contributing" target="_blank">Contributing</a>
   </h4>
 
   <br>
 
-  <a href="https://deno.land/x/entropy">
+  <a href="https://deno.land/x/entropy" target="_blank">
     <img src="https://shield.deno.dev/deno/%5E1.34" alt="Required minimal Deno version">
+  </a>
+
+  <a href="https://deno.land/x/entropy" target="_blank">
     <img src="https://shield.deno.dev/x/entropy" alt="Latest Entropy version">
   </a>
 
