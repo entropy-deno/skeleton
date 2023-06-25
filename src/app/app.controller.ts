@@ -1,6 +1,6 @@
-import { render, Route } from '@entropy';
+import { Controller, render, Route } from '@entropy';
 
-export class AppController {
+export class AppController implements Controller {
   @Route.Get('/')
   public async index() {
     return await render('./views/home', {
