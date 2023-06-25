@@ -1,9 +1,7 @@
 <div align="center">
   <img src="./.github/logo-full.png" height="64" alt="Logo">
 
-  <p align="center">
-    <h1>Entropy Framework</h1>
-  </p>
+  <br>
 
   <p align="center">Modern and declarative backend development framework for Deno.</p>
 
@@ -14,6 +12,13 @@
     <span> · </span>
     <a href="https://entropy.deno.dev/docs/more/contributing">Contributing</a>
   </h4>
+
+  <br>
+
+  <img src="https://shield.deno.dev/deno/%5E1.34" alt="Required minimal Deno version">
+  <img src="https://shield.deno.dev/x/entropy" alt="Latest Entropy version">
+
+  <br>
 </div>
 
 ## Table of contents
