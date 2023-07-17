@@ -26,9 +26,8 @@
   "tasks": {
     "db:migrate": "deno run -A --unstable npm:prisma migrate dev --schema=./database/schema.prisma",
     "db:setup": "deno run -A --unstable npm:prisma generate --schema=./database/schema.prisma",
-    "start": "deno task start:dev",
-    "start:dev": "deno run -A --watch ./src/main.ts --dev --open",
-    "start:prod": "deno run -A ./src/main.ts",
+    "dev": "deno run -A --watch ./src/main.ts --dev --open",
+    "prod": "deno run -A ./src/main.ts",
     "test": "deno test -A --no-check --parallel --watch",
     "test:cov": "deno test -A --coverage=coverage"
   }
