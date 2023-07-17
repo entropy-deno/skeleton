@@ -21,7 +21,7 @@
   },
   "imports": {
     "@entropy": "https://deno.land/x/entropy@1.0.0-alpha.1/src/mod.ts",
-    "@std/": "https://deno.land/std@0.192.0/"
+    "@std/": "https://deno.land/std@0.194.0/"
   },
   "tasks": {
     "db:migrate": "deno run -A --unstable npm:prisma migrate dev --schema=./database/schema.prisma",
