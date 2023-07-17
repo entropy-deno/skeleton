@@ -21,8 +21,10 @@
   },
   "imports": {
     "@entropy": "https://deno.land/x/entropy@1.0.0-alpha.1/src/mod.ts",
+    "@prisma": "./database/client/deno/edge.ts",
     "@std/": "https://deno.land/std@0.194.0/"
   },
+  "lock": false,
   "tasks": {
     "db:migrate": "deno run -A --unstable npm:prisma@5.0.0 migrate dev --schema=./database/schema.prisma",
     "db:migrate:prod": "deno run -A --unstable npm:prisma@5.0.0 migrate deploy --schema=./database/schema.prisma",
