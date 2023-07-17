@@ -24,8 +24,11 @@
     "@std/": "https://deno.land/std@0.194.0/"
   },
   "tasks": {
-    "db:migrate": "deno run -A --unstable npm:prisma migrate dev --schema=./database/schema.prisma",
-    "db:setup": "deno run -A --unstable npm:prisma generate --schema=./database/schema.prisma",
+    "db:migrate": "deno run -A --unstable npm:prisma@5.0.0 migrate dev --schema=./database/schema.prisma",
+    "db:pull": "deno run -A --unstable npm:prisma@5.0.0 db pull --schema=./database/schema.prisma",
+    "db:push": "deno run -A --unstable npm:prisma@5.0.0 db push --schema=./database/schema.prisma",
+    "db:seed": "deno run -A ./database/seed.ts",
+    "db:setup": "deno run -A --unstable npm:prisma@5.0.0 generate --schema=./database/schema.prisma",
     "dev": "deno run -A --watch ./src/main.ts --dev --open",
     "prod": "deno run -A ./src/main.ts",
     "test": "deno test -A --no-check --parallel --watch",
