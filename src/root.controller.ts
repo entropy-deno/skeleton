@@ -1,15 +1,15 @@
 import { Controller, render, Route } from '@entropy';
 
-export class AppController implements Controller {
+export class RootController implements Controller {
   @Route.Get('/')
   public async index() {
-    return await render('./views/home', {
+    return await render('home', {
       message: 'Hello, world!',
     });
   }
 
   @Route.Error(404)
   public async notFound() {
-    return await render('./views/404');
+    return await render('404');
   }
 }

@@ -1,5 +1,5 @@
 import { createServer } from '@entropy';
-import { AppModule } from './app/app.module.ts';
+import { RootModule } from './root.module.ts';
 
 if (import.meta.main) {
   const server = createServer({
@@ -7,7 +7,7 @@ if (import.meta.main) {
       envFile: '.env',
     },
     modules: [
-      AppModule,
+      RootModule,
     ],
   });
 
