@@ -23,7 +23,7 @@
   "imports": {
     "@entropy": "../core/src/mod.ts",
     "@prisma": "./database/client/deno/edge.ts",
-    "@std/": "https://deno.land/std@0.194.0/"
+    "@std/": "https://deno.land/std@0.195.0/"
   },
   "lock": false,
   "tasks": {

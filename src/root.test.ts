@@ -1,4 +1,4 @@
-import { assertStringIncludes } from '@std/testing/asserts.ts';
+import { assertStringIncludes } from '@std/assert/mod.ts';
 import { inject, Router } from '@entropy';
 import { RootController } from './root.controller.ts';
 
