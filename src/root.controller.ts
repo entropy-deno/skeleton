@@ -1,6 +1,6 @@
-import { Controller, render, Route } from '@entropy';
+import { render, Route } from '@entropy';
 
-export class RootController implements Controller {
+export class RootController {
   @Route.Get('/')
   public index() {
     return render('home', {
