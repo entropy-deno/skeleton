@@ -98,4 +98,10 @@ body {
   text-decoration: none;
   font: inherit;
   margin-top: 12px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
 }
