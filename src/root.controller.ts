@@ -1,15 +1,15 @@
-import { renderView, Route } from '@entropy';
+import { Controller, Route } from '@entropy';
 
-export class RootController {
+export class RootController extends Controller {
   @Route.Get('/')
   public index() {
-    return renderView('home', {
+    return this.renderView('home', {
       message: 'Hello, world!',
     });
   }
 
   @Route.Error(404)
   public notFound() {
-    return renderView('404');
+    return this.renderView('404');
   }
 }
