@@ -4,9 +4,11 @@ import { RootModule } from './root.module.ts';
 if (import.meta.main) {
   const server = createServer({
     config: {
-      cspAllowedOrigins: [
-        'https://fonts.googleapis.com',
-      ],
+      contentSecurityPolicy: {
+        allowedOrigins: [
+          'https://fonts.googleapis.com',
+        ],
+      },
       envFile: '.env',
     },
     modules: [
