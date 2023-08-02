@@ -47,6 +47,7 @@
     "db:setup": "deno run -A --unstable npm:prisma@5.1.0 generate --schema=./database/schema.prisma",
     "dev": "deno run -A --watch ./src/main.ts --dev --open",
     "prod": "deno run -A ./src/main.ts",
+    "repl": "deno repl -A --eval 'import * as entropy from \"@entropy\"'",
     "test": "export TESTING=true ; deno test -A --no-check --parallel",
     "test:cov": "export TESTING=true ; deno test -A --coverage=coverage",
     "test:watch": "export TESTING=true ; deno test -A --no-check --parallel --watch"
