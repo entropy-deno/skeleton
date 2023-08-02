@@ -1,4 +1,4 @@
-import { createServer } from '@entropy';
+import { createServer } from '@entropy/server';
 import { RootModule } from './root.module.ts';
 
 if (import.meta.main) {
