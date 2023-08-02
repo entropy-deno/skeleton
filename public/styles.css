@@ -66,10 +66,11 @@ body {
   line-height: 54px;
   font-weight: 600;
   letter-spacing: -1.2px;
+  text-align: center;
 }
 
 .header--small {
-  font-size: 38px;
+  font-size: 32px;
   letter-spacing: -1px;
 }
 
@@ -104,4 +105,10 @@ body {
 
 .button:hover {
   opacity: 0.9;
+}
+
+@media (min-width: 800px) {
+  .header {
+    font-size: 36px;
+  }
 }
