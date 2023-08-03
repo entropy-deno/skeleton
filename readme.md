@@ -10,7 +10,9 @@
   <h4>
     <a href="https://entropy.deno.dev" target="_blank">Website</a>
     <span> · </span>
-    <a href="https://entropy.deno.dev/docs/introducing-entropy" target="_blank">Documentation</a>
+    <a href="https://entropy.deno.dev/docs/introducing-entropy" target="_blank">Docs</a>
+    <span> · </span>
+    <a href="https://github.com/entropy-deno/app-template" target="_blank">Repository</a>
     <span> · </span>
     <a href="https://entropy.deno.dev/docs/more/contributing" target="_blank">Contributing</a>
   </h4>
