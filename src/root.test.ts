@@ -1,5 +1,6 @@
 import { assertStringIncludes } from '@std/assert/mod.ts';
-import { inject, Router } from '@entropy';
+import { inject } from '@entropy/injector';
+import { Router } from '@entropy/router';
 import { RootController } from './root.controller.ts';
 
 Deno.test('root module', async (test) => {
