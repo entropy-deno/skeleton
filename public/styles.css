@@ -13,7 +13,7 @@
   --font-mono: 'Roboto Mono', monospace;
   --font-sans: 'Inter', sans-serif;
   --text: #f5f5f5;
-  --text-gray: #b2b2b2;
+  --text-gray: #d5d8dd;
   --theme: #9868ff;
   --theme-light: #a981ff;
 }
@@ -50,6 +50,9 @@ body {
   display: grid;
   place-items: center;
   gap: 28px;
+  background: var(--bg-block);
+  padding: 78px 132px;
+  border-radius: 22px;
 }
 
 .error__status {
@@ -81,6 +84,7 @@ body {
 .code {
   font-family: var(--font-mono);
   background: var(--bg-block);
+  color: var(--text-gray);
   padding: 4px 7px;
   border-radius: 5px;
   font-size: 13px;
@@ -90,21 +94,22 @@ body {
 }
 
 .button {
-  background: none;
-  border: 2px solid var(--theme-light);
-  color: var(--theme-light);
-  padding: 9px 16px;
-  border-radius: 22px;
+  background: var(--theme);
+  border: none;
+  color: var(--text);
+  padding: 12px 16px;
+  border-radius: 12px;
   display: block;
   text-decoration: none;
   font: inherit;
   margin-top: 12px;
   user-select: none;
   cursor: pointer;
+  transition: opacity 0.2s ease;
 }
 
 .button:hover {
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 @media (min-width: 800px) {

@@ -23,10 +23,16 @@
   
       <h1 class="header">{{ message }}</h1>
 
-      <p class="hero__info">
-        Navigate to <code class="code">src/root.controller.ts</code>
-        file to get started.
-      </p>
+      [if (true)]
+        <p class="hero__info">
+          Navigate to <code class="code">src/root.controller.ts</code>
+          file to get started.
+        </p>
+      [else]
+        <p class="hero__info">
+          This is a conditional else block, put something here!
+        </p>
+      [/if]
 
       <a class="button" href="https://entropy.deno.dev" target="_blank">
         Entropy Documentation
