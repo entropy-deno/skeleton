@@ -73,7 +73,8 @@ body {
 }
 
 .header--small {
-  font-size: 32px;
+  font-size: 34px !important;
+  font-weight: 500;
   letter-spacing: -1px;
 }
 
