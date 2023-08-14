@@ -1,4 +1,4 @@
-import { Controller } from '@entropy/http';
+import { Controller, HttpStatus } from '@entropy/http';
 import { Route } from '@entropy/router';
 
 export class RootController extends Controller {
@@ -9,7 +9,7 @@ export class RootController extends Controller {
     });
   }
 
-  @Route.Error(404)
+  @Route.Error(HttpStatus.NotFound)
   public notFound() {
     return this.renderView('404');
   }
