@@ -31,6 +31,7 @@
     "@entropy/router": "../core/src/router/router.module.ts",
     "@entropy/server": "../core/src/server/server.module.ts",
     "@entropy/templates": "../core/src/templates/templates.module.ts",
+    "@entropy/testing": "../core/src/testing/testing.module.ts",
     "@entropy/utils": "../core/src/utils/utils.module.ts",
     "@entropy/validator": "../core/src/validator/validator.module.ts",
     "@entropy/websocket": "../core/src/web_socket/web_socket.module.ts",
