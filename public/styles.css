@@ -8,14 +8,14 @@
 
 :root {
   --bg: #000;
-  --bg-block: #181818;
+  --bg-block: #141414;
   --border: #232323;
   --font-mono: 'Roboto Mono', monospace;
-  --font-sans: 'Inter', sans-serif;
+  --font-sans: 'Noto Sans', sans-serif;
   --text: #f5f5f5;
-  --text-gray: #d5d8dd;
-  --theme: #9868ff;
-  --theme-light: #a981ff;
+  --text-gray: #b7bfcc;
+  --theme: #4b3bff;
+  --theme-light: #5646ff;
 }
 
 @keyframes bounce {
@@ -110,7 +110,7 @@ body {
 }
 
 .button:hover {
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 @media (min-width: 800px) {
