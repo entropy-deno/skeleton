@@ -2,7 +2,7 @@ import { createServer } from '@entropy/server';
 import { RootModule } from './root.module.ts';
 
 if (import.meta.main) {
-  const server = createServer({
+  using server = createServer({
     config: {
       contentSecurityPolicy: {
         allowedOrigins: [
