@@ -19,9 +19,11 @@
 
   <body>
     <main class="hero">
-      <img class="logo" src="/logo.png" alt="Entropy Logo">
+      <header class="hero__header">
+        <img class="logo" src="/logo.png" alt="Entropy Logo">
   
-      <h1 class="header">{{ message }}</h1>
+        <h1 class="header">{{ message }}</h1>
+      </header>
 
       [if (true)]
         <p class="hero__info">
@@ -35,7 +37,10 @@
       [/if]
 
       <a class="button" href="https://entropy.deno.dev" target="_blank">
-        Entropy Documentation
+        Learn Entropy
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3">
+        </svg>
       </a>
     </main>
   </body>

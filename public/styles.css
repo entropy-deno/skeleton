@@ -15,6 +15,7 @@
   --text: #f3f4f6;
   --text-gray: #b2b9c5;
   --theme: #4f46e5;
+  --theme-light: #726bf0;
 }
 
 @keyframes bounce {
@@ -27,11 +28,11 @@
   }
 
 	40% {
-    transform: translateY(-24px);
+    transform: translateY(-16px);
   }
 
 	60% {
-    transform: translateY(-14px);
+    transform: translateY(-12px);
   }
 }
 
@@ -48,10 +49,16 @@ body {
 .hero {
   display: grid;
   place-items: center;
-  gap: 28px;
+  gap: 38px;
   background: var(--bg-block);
-  padding: 98px 152px;
-  border-radius: 20px;
+  padding: 110px 164px;
+  border-radius: 24px;
+}
+
+.hero__header {
+  display: flex;
+  align-items: center;
+  gap: 22px;
 }
 
 .error__status {
@@ -60,12 +67,12 @@ body {
 }
 
 .logo {
-  width: 110px;
-  animation: bounce 2s ease infinite;
+  width: 98px;
+  animation: bounce 2s ease-in-out infinite;
 }
 
 .header {
-  font-size: 48px;
+  font-size: 34px;
   line-height: 54px;
   font-weight: 700;
   letter-spacing: -1px;
@@ -73,12 +80,12 @@ body {
 }
 
 .header--small {
-  font-size: 32px !important;
+  font-size: 32px;
   letter-spacing: -0.5px;
 }
 
 .text-theme {
-  color: var(--theme);
+  color: var(--theme-light);
 }
 
 .code {
@@ -97,7 +104,9 @@ body {
   color: var(--text);
   padding: 12px 16px;
   border-radius: 12px;
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 4px;
   text-decoration: none;
   font: inherit;
   margin-top: 12px;
@@ -110,8 +119,13 @@ body {
   opacity: 0.9;
 }
 
+.button svg {
+  width: 18px;
+  height: 18px;
+}
+
 @media (min-width: 800px) {
   .header {
-    font-size: 34px;
+    font-size: 48px;
   }
 }
