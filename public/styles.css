@@ -77,6 +77,10 @@ body {
   font-weight: 700;
   letter-spacing: -1px;
   text-align: center;
+
+  @media (min-width: 800px) {
+    font-size: 48px;
+  }
 }
 
 .header--small {
@@ -113,19 +117,13 @@ body {
   user-select: none;
   cursor: pointer;
   transition: opacity 0.2s ease;
-}
 
-.button:hover {
-  opacity: 0.9;
-}
+  &:hover {
+    opacity: 0.9;
+  }
 
-.button svg {
-  width: 18px;
-  height: 18px;
-}
-
-@media (min-width: 800px) {
-  .header {
-    font-size: 48px;
+  & svg {
+    width: 18px;
+    height: 18px;
   }
 }
