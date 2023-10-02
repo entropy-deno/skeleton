@@ -10,6 +10,9 @@ if (import.meta.main) {
         ],
       },
       envFile: '.env',
+      locales: {
+        default: 'en',
+      },
     },
     modules: [
       RootModule,

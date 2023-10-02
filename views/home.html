@@ -14,7 +14,7 @@
     >
     <link rel="stylesheet" href="/styles.css">
 
-    [hotReload]
+    @hotReload
   </head>
 
   <body>
@@ -25,16 +25,16 @@
         <h1 class="header">{{ message }}</h1>
       </header>
 
-      [if (true)]
+      @if (true)
         <p class="hero__info">
           Navigate to <code class="code">src/root.controller.ts</code>
           file to get started.
         </p>
-      [else]
+      @else
         <p class="hero__info">
           This is a conditional else block, put something here!
         </p>
-      [/if]
+      @/if
 
       <a class="button" href="https://entropy.deno.dev" target="_blank">
         Learn Entropy
