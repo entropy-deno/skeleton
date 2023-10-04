@@ -61,6 +61,10 @@ body {
   gap: 22px;
 }
 
+.hero__info {
+  font-size: 17px;
+}
+
 .error__status {
   margin-right: 8px;
   letter-spacing: 0;
