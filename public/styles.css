@@ -68,7 +68,10 @@ body {
 
 .logo {
   width: 98px;
-  animation: bounce 2s ease-in-out infinite;
+
+  @media (prefers-reduced-motion: no-preference) {
+    animation: bounce 2s ease-in-out infinite;
+  }
 }
 
 .header {
