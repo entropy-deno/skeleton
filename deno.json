@@ -6,6 +6,7 @@
       "dom",
       "dom.asynciterable",
       "dom.iterable",
+      "deno.unstable",
       "esnext"
     ],
     "strict": true
@@ -51,8 +52,8 @@
     "db:push": "deno run -A --unstable npm:prisma@5.4.1 db push --schema=./database/schema.prisma",
     "db:seed": "deno run -A ./database/seed.ts",
     "db:setup": "deno run -A --unstable npm:prisma@5.4.1 generate --schema=./database/schema.prisma",
-    "dev": "deno run -A --watch ./src/main.ts --dev --open",
-    "prod": "deno run -A ./src/main.ts",
+    "dev": "deno run -A --unstable --watch ./src/main.ts --dev --open",
+    "prod": "deno run -A --unstable ./src/main.ts",
     "repl": "deno repl -A --eval 'import * as Entropy from \"@entropy\"'",
     "test": "deno test -A --no-check --parallel",
     "test:cov": "deno test -A --coverage=coverage",
