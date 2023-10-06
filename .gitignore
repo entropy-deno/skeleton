@@ -1,6 +1,5 @@
 *.log
 *.sln
-*.sqlite
 *coverage
 .DS_Store
 .env*
