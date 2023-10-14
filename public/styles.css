@@ -7,15 +7,14 @@
 }
 
 :root {
-  --bg: #030712;
-  --bg-block: #111827;
-  --border: #4b5563;
+  --bg: #111827;
+  --bg-block: #161f33;
   --font-mono: 'Roboto Mono', monospace;
   --font-sans: 'Urbanist', sans-serif;
   --text: #f3f4f6;
   --text-gray: #b2b9c5;
-  --theme: #4f46e5;
-  --theme-light: #726bf0;
+  --text-dark: #052133;
+  --theme: #38bdf8;
 }
 
 @keyframes bounce {
@@ -101,7 +100,7 @@ body {
 }
 
 .text-theme {
-  color: var(--theme-light);
+  color: var(--theme);
 }
 
 .code {
@@ -117,7 +116,7 @@ body {
 .button {
   background: var(--theme);
   border: none;
-  color: var(--text);
+  color: var(--text-dark);
   padding: 12px 16px;
   border-radius: 12px;
   display: flex;
