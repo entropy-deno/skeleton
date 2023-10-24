@@ -53,7 +53,7 @@
     "db:push": "deno run -A --unstable npm:prisma@5.5.0 db push --schema=./database/schema.prisma",
     "db:seed": "deno run -A ./database/seed.ts",
     "db:setup": "deno run -A --unstable npm:prisma@5.5.0 generate --schema=./database/schema.prisma",
-    "dev": "deno run -A --unstable --watch ./src/main.ts --dev --open",
+    "dev": "deno run -A --unstable --watch --quiet ./src/main.ts --dev --open",
     "prod": "deno run -A --unstable ./src/main.ts",
     "repl": "deno repl -A --eval 'import * as Entropy from \"@entropy\"'",
     "test": "deno test -A --no-check --parallel",
