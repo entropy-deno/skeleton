@@ -29,6 +29,7 @@
     "@entropy/injector": "../core/src/injector/injector.module.ts",
     "@entropy/localizator": "../core/src/localizator/localizator.module.ts",
     "@entropy/logger": "../core/src/logger/logger.module.ts",
+    "@entropy/pipes": "../core/src/pipes/pipes.module.ts",
     "@entropy/router": "../core/src/router/router.module.ts",
     "@entropy/server": "../core/src/server/server.module.ts",
     "@entropy/templates": "../core/src/templates/templates.module.ts",
