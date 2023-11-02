@@ -53,11 +53,15 @@
     "db:push": "deno run -A --unstable npm:prisma@5.5.2 db push --schema=./database/schema.prisma",
     "db:seed": "deno run -A ./database/seed.ts",
     "db:setup": "deno run -A --unstable npm:prisma@5.5.2 generate --schema=./database/schema.prisma",
-    "dev": "deno run -A --unstable --watch --quiet ./src/main.ts --dev --open",
-    "prod": "deno run -A --unstable ./src/main.ts",
+    "dev": "deno run -A --unstable-hmr --quiet ./src/main.ts --dev --open",
+    "prod": "deno run -A ./src/main.ts",
     "repl": "deno repl -A --eval 'import * as Entropy from \"@entropy\"'",
-    "test": "deno test -A --no-check --parallel",
-    "test:cov": "deno test -A --coverage=coverage",
-    "test:watch": "deno test -A --no-check --parallel --watch"
-  }
+    "test": "deno test -A --env=.env.testing --no-check --parallel",
+    "test:cov": "deno test -A --coverage=coverage --env=.env.testing",
+    "test:watch": "deno test -A --env=.env.testing --no-check --parallel --watch"
+  },
+  "unstable": [
+    "cron",
+    "kv"
+  ]
 }
