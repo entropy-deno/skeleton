@@ -31,6 +31,7 @@
     "@entropy/logger": "../core/src/logger/logger.module.ts",
     "@entropy/pipes": "../core/src/pipes/pipes.module.ts",
     "@entropy/router": "../core/src/router/router.module.ts",
+    "@entropy/scheduler": "../core/src/scheduler/scheduler.module.ts",
     "@entropy/server": "../core/src/server/server.module.ts",
     "@entropy/templates": "../core/src/templates/templates.module.ts",
     "@entropy/testing": "../core/src/testing/testing.module.ts",
