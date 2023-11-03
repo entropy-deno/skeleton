@@ -24,6 +24,7 @@
   "imports": {
     "@entropy": "../core/src/mod.ts",
     "@entropy/configurator": "../core/src/configurator/configurator.module.ts",
+    "@entropy/constants": "../core/src/constants.ts",
     "@entropy/encrypter": "../core/src/encrypter/encrypter.module.ts",
     "@entropy/http": "../core/src/http/http.module.ts",
     "@entropy/injector": "../core/src/injector/injector.module.ts",
