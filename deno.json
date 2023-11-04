@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "allowJs": false,
     "lib": [
       "deno.ns",
       "dom",
@@ -45,7 +44,13 @@
   "lint": {
     "exclude": [
       "public/"
-    ]
+    ],
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": [
+        "no-empty-pattern"
+      ]
+    }
   },
   "lock": false,
   "tasks": {
