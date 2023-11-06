@@ -3,14 +3,14 @@ import { Route } from '@entropy/router';
 
 export class RootController extends Controller {
   @Route.Get('/')
-  public index() {
-    return this.render('home', {
+  public async index() {
+    return await this.render('home', {
       message: 'Hello, world!',
     });
   }
 
   @Route.Error(HttpStatus.NotFound)
-  public notFound() {
-    return this.render('404');
+  public async notFound() {
+    return await this.render('404');
   }
 }
