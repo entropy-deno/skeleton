@@ -1,4 +1,5 @@
-import { Encrypter, inject } from '../../core/mod.ts';
+import { Encrypter } from '@entropy/encrypter';
+import { inject } from '@entropy/injector';
 import { PrismaClient } from '@prisma';
 
 const db = inject(PrismaClient);
