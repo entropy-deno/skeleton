@@ -1,5 +1,5 @@
-import { HttpStatus } from '@entropy/http';
 import { Controller, Route } from '@entropy/router';
+import { HttpStatus } from '@entropy/http';
 
 export class RootController extends Controller {
   @Route.Get('/')
