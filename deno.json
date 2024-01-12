@@ -39,7 +39,7 @@
     "@entropy/validator": "../core/src/validator/validator.module.ts",
     "@entropy/websocket": "../core/src/web_socket/web_socket.module.ts",
     "@prisma": "./database/client/deno/edge.ts",
-    "@std/": "https://deno.land/std@0.211.0/"
+    "@std/": "https://deno.land/std@0.212.0/"
   },
   "lint": {
     "exclude": [
