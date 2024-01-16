@@ -12,6 +12,7 @@ if (import.meta.main) {
       envFile: '.env',
       locales: {
         default: 'en',
+        supported: [],
       },
     },
     modules: [
