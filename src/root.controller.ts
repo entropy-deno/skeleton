@@ -5,7 +5,7 @@ export class RootController extends Controller {
   @Route.Get('/')
   public async index() {
     return await this.render('home', {
-      message: 'Hello, world!',
+      message: 'Welcome to Entropy',
     });
   }
 
