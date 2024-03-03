@@ -13,8 +13,7 @@
   },
   "fmt": {
     "include": [
-      "src/",
-      "*.md"
+      "src/"
     ],
     "indentWidth": 2,
     "lineWidth": 80,
@@ -45,6 +44,7 @@
   },
   "lint": {
     "exclude": [
+      "*.md",
       "public/"
     ],
     "rules": {
